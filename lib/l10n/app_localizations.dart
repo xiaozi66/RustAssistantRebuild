@@ -1610,7 +1610,7 @@ abstract class AppLocalizations {
   /// No description provided for @close.
   ///
   /// In en, this message translates to:
-  /// **'close'**
+  /// **'Close'**
   String get close;
 
   /// No description provided for @clearRecycleBin.
@@ -1798,6 +1798,132 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'builtIn'**
   String get builtIn;
+
+  /// No description provided for @codeTable.
+  ///
+  /// In en, this message translates to:
+  /// **'Code Table'**
+  String get codeTable;
+
+  /// No description provided for @noNode.
+  ///
+  /// In en, this message translates to:
+  /// **'No Section'**
+  String get noNode;
+
+  /// No description provided for @unknownNode.
+  ///
+  /// In en, this message translates to:
+  /// **'Unknown Section'**
+  String get unknownNode;
+
+  /// No description provided for @noCode.
+  ///
+  /// In en, this message translates to:
+  /// **'No Code'**
+  String get noCode;
+
+  /// No description provided for @unknownCode.
+  ///
+  /// In en, this message translates to:
+  /// **'Unknown Code'**
+  String get unknownCode;
+
+  /// No description provided for @enumType.
+  ///
+  /// In en, this message translates to:
+  /// **'Enum Type: '**
+  String get enumType;
+
+  /// No description provided for @codeFile.
+  ///
+  /// In en, this message translates to:
+  /// **'Code File: '**
+  String get codeFile;
+
+  /// No description provided for @defaultKeyLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Default Key'**
+  String get defaultKeyLabel;
+
+  /// No description provided for @defaultValueLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Default Value'**
+  String get defaultValueLabel;
+
+  /// No description provided for @versionRangeLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Version Range'**
+  String get versionRangeLabel;
+
+  /// No description provided for @allowRepetitionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Allow Repetition'**
+  String get allowRepetitionLabel;
+
+  /// No description provided for @yes.
+  ///
+  /// In en, this message translates to:
+  /// **'Yes'**
+  String get yes;
+
+  /// No description provided for @no.
+  ///
+  /// In en, this message translates to:
+  /// **'No'**
+  String get no;
+
+  /// No description provided for @codeDetailsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Code Details'**
+  String get codeDetailsTitle;
+
+  /// No description provided for @notSet.
+  ///
+  /// In en, this message translates to:
+  /// **'Not Set'**
+  String get notSet;
+
+  /// No description provided for @codeLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Code'**
+  String get codeLabel;
+
+  /// No description provided for @sectionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Section'**
+  String get sectionLabel;
+
+  /// No description provided for @interpreterLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Interpreter'**
+  String get interpreterLabel;
+
+  /// No description provided for @fileNameLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'File Name'**
+  String get fileNameLabel;
+
+  /// No description provided for @minVersionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Min Version'**
+  String get minVersionLabel;
+
+  /// No description provided for @maxVersionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Max Version'**
+  String get maxVersionLabel;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

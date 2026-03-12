@@ -548,6 +548,16 @@ class CodeDataBase {
     }
   }
 
+  // 获取所有代码列表
+  static List<Code> getAllCodes() {
+    return List<Code>.from(_code);
+  }
+
+  // 获取所有代码信息列表
+  static List<CodeInfo> getAllCodeInfo() {
+    return List<CodeInfo>.from(_codeInfo);
+  }
+
   static Future<void> loadCode() async {
     _code.clear();
     final List<dynamic> jsonData = json.decode(

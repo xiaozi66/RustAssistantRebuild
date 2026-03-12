@@ -35,6 +35,7 @@ import '../interpreters/note_data_interpreter.dart';
 import '../interpreters/section_interpreter.dart';
 import '../interpreters/string_data_interpreter.dart';
 import '../l10n/app_localizations.dart';
+import 'code_table_page.dart';
 
 class IniEditorPage extends StatefulWidget {
   final bool displayLineNumber;
@@ -821,6 +822,19 @@ class _IniEditorPageStatus extends State<IniEditorPage>
                     addSection();
                   },
                   icon: Icon(Icons.add),
+                ),
+
+                IconButton(
+                  tooltip: AppLocalizations.of(context)!.codeTable,
+                  onPressed: () {
+                    // 进入空白分页的代码表页面
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (context) => CodeTablePage(),
+                      ),
+                    );
+                  },
+                  icon: Icon(Icons.code),
                 ),
               ],
             ),

@@ -765,7 +765,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get createFileOrFolder => 'Create a file or folder';
 
   @override
-  String get close => 'close';
+  String get close => 'Close';
 
   @override
   String get clearRecycleBin => 'Empty the Recycle Bin';
@@ -859,4 +859,67 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get builtIn => 'builtIn';
+
+  @override
+  String get codeTable => 'Code Table';
+
+  @override
+  String get noNode => 'No Section';
+
+  @override
+  String get unknownNode => 'Unknown Section';
+
+  @override
+  String get noCode => 'No Code';
+
+  @override
+  String get unknownCode => 'Unknown Code';
+
+  @override
+  String get enumType => 'Enum Type: ';
+
+  @override
+  String get codeFile => 'Code File: ';
+
+  @override
+  String get defaultKeyLabel => 'Default Key';
+
+  @override
+  String get defaultValueLabel => 'Default Value';
+
+  @override
+  String get versionRangeLabel => 'Version Range';
+
+  @override
+  String get allowRepetitionLabel => 'Allow Repetition';
+
+  @override
+  String get yes => 'Yes';
+
+  @override
+  String get no => 'No';
+
+  @override
+  String get codeDetailsTitle => 'Code Details';
+
+  @override
+  String get notSet => 'Not Set';
+
+  @override
+  String get codeLabel => 'Code';
+
+  @override
+  String get sectionLabel => 'Section';
+
+  @override
+  String get interpreterLabel => 'Interpreter';
+
+  @override
+  String get fileNameLabel => 'File Name';
+
+  @override
+  String get minVersionLabel => 'Min Version';
+
+  @override
+  String get maxVersionLabel => 'Max Version';
 }

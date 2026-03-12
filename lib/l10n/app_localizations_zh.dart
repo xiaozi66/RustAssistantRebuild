@@ -859,4 +859,67 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get builtIn => '内置';
+
+  @override
+  String get codeTable => '代码表';
+
+  @override
+  String get noNode => '无节点';
+
+  @override
+  String get unknownNode => '未知节点';
+
+  @override
+  String get noCode => '无代码';
+
+  @override
+  String get unknownCode => '未知代码';
+
+  @override
+  String get enumType => '枚举类型: ';
+
+  @override
+  String get codeFile => '代码文件: ';
+
+  @override
+  String get defaultKeyLabel => '默认键';
+
+  @override
+  String get defaultValueLabel => '默认值';
+
+  @override
+  String get versionRangeLabel => '版本范围';
+
+  @override
+  String get allowRepetitionLabel => '允许重复';
+
+  @override
+  String get yes => '是';
+
+  @override
+  String get no => '否';
+
+  @override
+  String get codeDetailsTitle => '代码详情';
+
+  @override
+  String get notSet => '未设置';
+
+  @override
+  String get codeLabel => '代码';
+
+  @override
+  String get sectionLabel => '节';
+
+  @override
+  String get interpreterLabel => '解释器';
+
+  @override
+  String get fileNameLabel => '文件名';
+
+  @override
+  String get minVersionLabel => '最小版本';
+
+  @override
+  String get maxVersionLabel => '最大版本';
 }
